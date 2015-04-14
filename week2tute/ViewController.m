@@ -24,4 +24,18 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)plusButton {
+}
+
+- (IBAction)subtractButton {
+}
+
+- (IBAction)multiplyButton {
+}
+
+- (IBAction)devideButton {
+}
+
+- (IBAction)multiply:(id)sender {
+}
 @end

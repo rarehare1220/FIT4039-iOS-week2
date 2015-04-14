@@ -10,6 +10,16 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITextField *firstFigure;
+
+@property (strong, nonatomic) IBOutlet UITextField *secondFigure;
+
+@property (strong, nonatomic) IBOutlet UILabel *resultLabel;
+
+- (IBAction)plusButton;
+- (IBAction)subtractButton;
+- (IBAction)multiplyButton;
+- (IBAction)devideButton;
 
 @end
 

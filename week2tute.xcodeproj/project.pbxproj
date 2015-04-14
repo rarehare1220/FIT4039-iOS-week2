@@ -14,6 +14,7 @@
 		AAAF46341ADB866F00098076 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAAF46331ADB866F00098076 /* Images.xcassets */; };
 		AAAF46371ADB866F00098076 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAAF46351ADB866F00098076 /* LaunchScreen.xib */; };
 		AAAF46431ADB866F00098076 /* week2tuteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAF46421ADB866F00098076 /* week2tuteTests.m */; };
+		AADBF1071ADCC740003767B4 /* Caculator.m in Sources */ = {isa = PBXBuildFile; fileRef = AADBF1061ADCC740003767B4 /* Caculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		AAAF463C1ADB866F00098076 /* week2tuteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = week2tuteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAAF46411ADB866F00098076 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAAF46421ADB866F00098076 /* week2tuteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = week2tuteTests.m; sourceTree = "<group>"; };
+		AADBF1051ADCC740003767B4 /* Caculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Caculator.h; sourceTree = "<group>"; };
+		AADBF1061ADCC740003767B4 /* Caculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Caculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		AAAF46251ADB866F00098076 /* week2tute */ = {
 			isa = PBXGroup;
 			children = (
+				AADBF1051ADCC740003767B4 /* Caculator.h */,
+				AADBF1061ADCC740003767B4 /* Caculator.m */,
 				AAAF462A1ADB866F00098076 /* AppDelegate.h */,
 				AAAF462B1ADB866F00098076 /* AppDelegate.m */,
 				AAAF462D1ADB866F00098076 /* ViewController.h */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AADBF1071ADCC740003767B4 /* Caculator.m in Sources */,
 				AAAF462F1ADB866F00098076 /* ViewController.m in Sources */,
 				AAAF462C1ADB866F00098076 /* AppDelegate.m in Sources */,
 				AAAF46291ADB866F00098076 /* main.m in Sources */,
@@ -412,6 +418,7 @@
 				AAAF46481ADB866F00098076 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AAAF46491ADB866F00098076 /* Build configuration list for PBXNativeTarget "week2tuteTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				AAAF464B1ADB866F00098076 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
